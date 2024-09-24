@@ -1,0 +1,20 @@
+    $color-bg-dark: #141414;
+    $color-bg-secondary-dark: #1E1E1E;
+    $color-text-dark: #E0E0E0;
+    $color-text-secondary-dark: #B3B3B3;
+    $color-accent-primary-dark: #BB86FC;
+    $color-accent-secondary-dark: #03DAC6;
+    $color-error-dark: #CF6679;
+    $color-link-dark: #8AB4F8;
+    $font-family: Montserrat;
+    $font-size:  16px;
+
+body{
+    background-color: $color-bg-dark;
+    color: $color-text-dark;
+    font: {
+        size: $font-size;
+        family:  $font-family;
+    };
+    text-align: center;
+}
